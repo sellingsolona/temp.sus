@@ -7,9 +7,10 @@ document.getElementById('search-tool').onsubmit = function (event) {
 
     if (contractAddress === '') {
         resultContainer.innerHTML = '<strong>Please enter a contract address.</strong>';
-        return;
+        return false;
     }
 
-    // Display the result message dynamically on the page
+    // Display the result message dynamically
     resultContainer.innerHTML = `<strong>${contractAddress} IS SUS! Be Careful...</strong>`;
+    return false;
 };
