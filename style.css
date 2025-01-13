@@ -26,6 +26,10 @@ body {
     margin-bottom: 2rem;
 }
 
+.buttons {
+    margin-top: 1rem;
+}
+
 .btn {
     display: inline-block;
     padding: 1rem 2rem;
