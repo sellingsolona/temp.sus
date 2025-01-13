@@ -1,4 +1,4 @@
-// Placeholder for future functionality
+// Search Tool Functionality
 document.getElementById('search-tool').onsubmit = function () {
     const contractAddress = document.getElementById('contract-address').value.trim();
     if (contractAddress === '') {
@@ -6,5 +6,5 @@ document.getElementById('search-tool').onsubmit = function () {
         return false;
     }
     alert(`Searching for contract address: ${contractAddress}`);
-    return false; // Prevent actual form submission
+    return false; // Prevent form submission
 };
