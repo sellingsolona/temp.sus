@@ -13,7 +13,10 @@ document.getElementById('search-tool').addEventListener('submit', function (even
     // Step 1: Display "Thinking..." immediately
     resultContainer.innerHTML = '<strong>Thinking...</strong>';
 
-    // Step 2: Force browser to render "Thinking..." before continuing
+    // Step 2: Force browser to repaint before continuing
+    resultContainer.offsetHeight; // Trigger a reflow/repaint
+
+    // Step 3: After 3 seconds, display the final message
     setTimeout(() => {
         resultContainer.innerHTML = `<strong>${contractAddress} IS SUS! Be Careful...</strong>`;
     }, 3000); // 3-second delay
