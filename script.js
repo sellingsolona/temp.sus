@@ -5,6 +5,6 @@ document.getElementById('search-tool').onsubmit = function () {
         alert('Please enter a contract address.');
         return false;
     }
-    alert(`Searching for contract address: ${contractAddress}`);
-    return false; // Prevent form submission
+    alert(`${contractAddress} IS SUS! Be Careful...`);
+    return false; // Prevent actual form submission
 };
