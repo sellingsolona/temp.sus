@@ -25,12 +25,15 @@
             </div>
         </section>
 
-        <!-- Utility Tool Section -->
+        <!-- Utility Tool Section with Search Bar -->
         <section id="utility-tool" class="section alt-bg">
             <div class="container">
                 <h2>Utility Tool</h2>
-                <p>Use this website to paste contract addresses (CAs) of other coins to check their safety. The tool determines whether a coin is "Sus" or "Not Sus," helping traders navigate the market with confidence.</p>
-                <a href="#community" class="btn primary">Join the Community</a>
+                <p>Use this tool to paste contract addresses (CAs) of other coins and check their safety.</p>
+                <form id="search-tool" onsubmit="return false;">
+                    <input type="text" id="contract-address" placeholder="Paste contract address here..." />
+                    <button type="submit" class="btn primary">Check</button>
+                </form>
             </div>
         </section>
 
@@ -56,5 +59,6 @@
             <p>&copy; 2025 Sus. All rights reserved.</p>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
