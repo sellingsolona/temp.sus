@@ -10,10 +10,10 @@ document.getElementById('search-tool').addEventListener('submit', function (even
         return;
     }
 
-    // Clear previous messages and display "Thinking..."
+    // Step 1: Display "Thinking..." immediately
     resultContainer.innerHTML = '<strong>Thinking...</strong>';
 
-    // Use setTimeout to delay the final message by 3 seconds
+    // Step 2: Force browser to render "Thinking..." before continuing
     setTimeout(() => {
         resultContainer.innerHTML = `<strong>${contractAddress} IS SUS! Be Careful...</strong>`;
     }, 3000); // 3-second delay
