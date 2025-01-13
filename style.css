@@ -72,6 +72,35 @@ h2 {
     margin: 0 auto;
 }
 
+/* Search Bar */
+#search-tool {
+    margin-top: 2rem;
+}
+
+#contract-address {
+    width: 60%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    margin-right: 1rem;
+}
+
+#search-tool button {
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background: #ff4500;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#search-tool button:hover {
+    background: #ff3300;
+}
+
 /* GIF Section */
 #gif-section img.responsive-gif {
     max-width: 100%;
