@@ -8,52 +8,56 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Hero Section -->
     <header class="hero">
         <div class="container">
             <h1 class="hero-title">Sus</h1>
             <p class="hero-slogan">Is It Sus?</p>
-            <a href="#about-us" class="btn primary">Learn More</a>
-            <a href="#utility-tool" class="btn secondary">Use the Tool</a>
+            <div class="buttons">
+                <a href="#about-us" class="btn primary">Learn More</a>
+                <a href="#utility-tool" class="btn secondary">Use the Tool</a>
+            </div>
         </div>
     </header>
-    <main>
-        <!-- About Us Section -->
-        <section id="about-us" class="section">
-            <div class="container">
-                <h2>About Us</h2>
-                <p>Our mission is to provide tools that reveal critical insights about coins, helping users make more informed and secure decisions before purchasing. Together, we will gentrify the trenches.</p>
-            </div>
-        </section>
 
-        <!-- Utility Tool Section with Search Bar -->
-        <section id="utility-tool" class="section alt-bg">
-            <div class="container">
-                <h2>Utility Tool</h2>
-                <p>Use this tool to paste contract addresses (CAs) of other coins and check their safety.</p>
-                <form id="search-tool" onsubmit="return false;">
-                    <input type="text" id="contract-address" placeholder="Paste contract address here..." />
-                    <button type="submit" class="btn primary">Check</button>
-                </form>
-            </div>
-        </section>
+    <!-- About Us Section -->
+    <section id="about-us" class="section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Our mission is to provide tools that reveal critical insights about coins, helping users make more informed and secure decisions before purchasing. Together, we will gentrify the trenches.</p>
+        </div>
+    </section>
 
-        <!-- GIF Section -->
-        <section id="gif-section" class="section">
-            <div class="container">
-                <h2>Stay Safe with Sus</h2>
-                <p>Discover if your coins are "Sus" or "Not Sus".</p>
-                <img src="SUS_WEB_GIF.gif" alt="Sus GIF" class="responsive-gif">
-            </div>
-        </section>
+    <!-- Utility Tool Section -->
+    <section id="utility-tool" class="section alt-bg">
+        <div class="container">
+            <h2>Utility Tool</h2>
+            <p>Paste the contract address (CA) of a coin to check its safety:</p>
+            <form id="search-tool" onsubmit="return false;">
+                <input type="text" id="contract-address" placeholder="Paste contract address here..." />
+                <button type="submit" class="btn primary">Check</button>
+            </form>
+        </div>
+    </section>
 
-        <!-- Community Section -->
-        <section id="community" class="section">
-            <div class="container">
-                <h2>Join Our Community</h2>
-                <a href="https://discord.gg/g6fjsgmN" target="_blank" class="btn primary">Join Here</a>
-            </div>
-        </section>
-    </main>
+    <!-- GIF Section -->
+    <section id="gif-section" class="section">
+        <div class="container">
+            <h2>Stay Safe with Sus</h2>
+            <p>Discover if your coins are "Sus" or "Not Sus".</p>
+            <img src="SUS_WEB_GIF.gif" alt="Sus GIF" class="responsive-gif">
+        </div>
+    </section>
+
+    <!-- Community Section -->
+    <section id="community" class="section alt-bg">
+        <div class="container">
+            <h2>Join Our Community</h2>
+            <a href="https://discord.gg/g6fjsgmN" target="_blank" class="btn primary">Join Here</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <p>&copy; 2025 Sus. All rights reserved.</p>
