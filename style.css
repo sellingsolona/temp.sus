@@ -16,7 +16,6 @@ body {
     height: 100%;
     z-index: -2;
     background: transparent;
-    overflow: hidden;
 }
 
 .stars::before,
@@ -33,14 +32,14 @@ body {
 }
 
 .stars::before {
-    background-size: 30px 30px; /* Larger spacing for fewer stars */
-    opacity: 0.6; /* Slightly dimmer stars */
+    background-size: 60px 60px; /* Reduced star density (fewer stars) */
+    opacity: 0.6; /* Slightly dimmer for subtle effect */
 }
 
 .stars::after {
-    background-size: 50px 50px; /* Larger spacing for even fewer stars */
+    background-size: 100px 100px; /* Reduced star density in the second layer */
     opacity: 0.4;
-    animation-duration: 45s;
+    animation-duration: 45s; /* Slower movement for smoother effect */
 }
 
 @keyframes starfield {
