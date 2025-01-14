@@ -112,6 +112,15 @@ h2 {
     color: #ff4500;
 }
 
+/* Utility Tool Search Bar */
+#contract-address {
+    width: 68%; /* Restore width to previous size */
+    padding: 1.275rem; /* Restore padding for height */
+    font-size: 1.275rem; /* Restore font size */
+    border-radius: 5px;
+    border: none;
+}
+
 /* GIF Styling */
 .responsive-gif {
     width: 25%;
