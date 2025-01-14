@@ -123,9 +123,9 @@ h2 {
 
 /* Utility Tool Search Bar */
 #contract-address {
-    width: 105.47%; /* Decreased width by 10% */
-    padding: 1.7578125rem; /* Decreased padding for height by 10% */
-    font-size: 1.7578125rem; /* Decreased font size by 10% */
+    width: 94.92%; /* Decreased width by another 10% */
+    padding: 1.58203125rem; /* Decreased padding for height by another 10% */
+    font-size: 1.58203125rem; /* Decreased font size by another 10% */
     border-radius: 5px;
     border: none;
 }
