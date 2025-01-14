@@ -123,7 +123,7 @@ h2 {
 
 /* GIF Styling */
 .responsive-gif {
-    width: 25%; /* Resized to 25% of original size */
+    width: 25%; /* Reduced to 25% of its original size (75% smaller) */
     display: block;
     margin: 0 auto;
 }
