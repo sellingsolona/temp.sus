@@ -32,16 +32,16 @@ body {
 }
 
 .stars::before {
-    background-size: 400px 400px; /* Normal spacing for stars */
+    background-size: 400px 400px;
     opacity: 0.6;
-    animation-direction: normal; /* Moves in one direction */
+    animation-direction: normal;
 }
 
 .stars::after {
-    background-size: 600px 600px; /* Larger spacing for depth effect */
+    background-size: 600px 600px;
     opacity: 0.4;
-    animation-direction: reverse; /* Moves in opposite direction */
-    animation-duration: 45s; /* Slower movement for the second layer */
+    animation-direction: reverse;
+    animation-duration: 45s;
 }
 
 @keyframes starfield {
@@ -49,7 +49,7 @@ body {
         transform: translate3d(0, 0, 0);
     }
     100% {
-        transform: translate3d(-1000px, -1000px, 0); /* Moves stars diagonally */
+        transform: translate3d(-1000px, -1000px, 0);
     }
 }
 
@@ -99,7 +99,7 @@ body {
 .section {
     padding: 4rem 1rem;
     text-align: center;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.075); /* Increased transparency by 25% */
     margin: 3rem auto;
     border-radius: 20px;
     max-width: 900px;
@@ -107,7 +107,7 @@ body {
 }
 
 .alt-bg {
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.45); /* Increased transparency by 25% */
 }
 
 .section p {
@@ -125,7 +125,7 @@ h2 {
 
 /* Utility Tool Search Bar */
 #contract-address {
-    width: 63.75%; /* Slightly smaller search bar */
+    width: 63.75%;
     padding: 1.2rem;
     font-size: 1.2rem;
     border-radius: 5px;
