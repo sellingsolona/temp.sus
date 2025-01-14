@@ -99,7 +99,7 @@ body {
 .section {
     padding: 4rem 1rem;
     text-align: center;
-    background: rgba(255, 255, 255, 0.075); /* Increased transparency by 25% */
+    background: rgba(255, 255, 255, 0.075);
     margin: 3rem auto;
     border-radius: 20px;
     max-width: 900px;
@@ -107,7 +107,7 @@ body {
 }
 
 .alt-bg {
-    background: rgba(0, 0, 0, 0.45); /* Increased transparency by 25% */
+    background: rgba(0, 0, 0, 0.45);
 }
 
 .section p {
@@ -125,7 +125,7 @@ h2 {
 
 /* Utility Tool Search Bar */
 #contract-address {
-    width: 63.75%; /* Slightly smaller search bar */
+    width: 63.75%;
     padding: 1.2rem;
     font-size: 1.2rem;
     border-radius: 5px;
@@ -147,8 +147,8 @@ h2 {
 }
 
 .banner-image {
-    width: auto; /* Maintain aspect ratio */
-    max-height: 40%; /* Reduced to 40% of original height (60% smaller) */
+    width: 60%; /* Explicitly set width to 60% of the page width */
+    height: auto; /* Maintain aspect ratio */
     display: block;
     margin: 0 auto;
 }
