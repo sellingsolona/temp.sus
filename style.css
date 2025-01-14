@@ -32,14 +32,14 @@ body {
 }
 
 .stars::before {
-    background-size: 150px 150px; /* MUCH wider spacing for far fewer stars */
-    opacity: 0.6; /* Slightly dimmer stars */
+    background-size: 400px 400px; /* Extremely wide spacing for very few stars */
+    opacity: 0.6;
 }
 
 .stars::after {
-    background-size: 200px 200px; /* Even fewer stars in the second layer */
+    background-size: 600px 600px; /* Even fewer stars for the second layer */
     opacity: 0.4;
-    animation-duration: 45s; /* Slower movement for smoother effect */
+    animation-duration: 45s; /* Slower movement for subtle effect */
 }
 
 @keyframes starfield {
