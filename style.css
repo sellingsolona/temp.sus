@@ -27,21 +27,21 @@ body {
     width: 300%;
     height: 300%;
     background: radial-gradient(circle, #ffffff 1px, transparent 1px) repeat;
-    animation: starfield 60s linear infinite;
+    animation: starfield 30s linear infinite;
     transform: translate3d(0, 0, 0);
 }
 
 .stars::before {
-    background-size: 400px 400px;
+    background-size: 400px 400px; /* Normal spacing for stars */
     opacity: 0.6;
-    animation-direction: normal;
+    animation-direction: normal; /* Moves in one direction */
 }
 
 .stars::after {
-    background-size: 600px 600px;
+    background-size: 600px 600px; /* Larger spacing for depth effect */
     opacity: 0.4;
-    animation-direction: reverse;
-    animation-duration: 90s;
+    animation-direction: reverse; /* Moves in opposite direction */
+    animation-duration: 45s; /* Slower movement for the second layer */
 }
 
 @keyframes starfield {
@@ -49,7 +49,7 @@ body {
         transform: translate3d(0, 0, 0);
     }
     100% {
-        transform: translate3d(-1000px, -1000px, 0);
+        transform: translate3d(-1000px, -1000px, 0); /* Moves stars diagonally */
     }
 }
 
@@ -125,9 +125,9 @@ h2 {
 
 /* Utility Tool Search Bar */
 #contract-address {
-    width: 63.75%; /* Decreased width by 25% */
-    padding: 1.2rem; /* Decreased padding (height) by 25% */
-    font-size: 1.2rem; /* Decreased font size by 25% */
+    width: 63.75%; /* Slightly smaller search bar */
+    padding: 1.2rem;
+    font-size: 1.2rem;
     border-radius: 5px;
     border: none;
 }
