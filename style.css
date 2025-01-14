@@ -5,8 +5,6 @@ body {
     padding: 0;
     color: #ffffff;
     background: radial-gradient(circle, #020b20, #000) fixed;
-    overflow: hidden;
-    position: relative;
 }
 
 /* Starfield Effect */
@@ -29,19 +27,19 @@ body {
     left: 0;
     width: 300%;
     height: 300%;
-    background: radial-gradient(circle, #ffffff 2px, transparent 2px) repeat;
+    background: radial-gradient(circle, #ffffff 1px, transparent 1px) repeat;
     animation: starfield 30s linear infinite;
     transform: translate3d(0, 0, 0);
 }
 
 .stars::before {
-    background-size: 10px 10px;
-    opacity: 0.7;
+    background-size: 30px 30px; /* Larger spacing for fewer stars */
+    opacity: 0.6; /* Slightly dimmer stars */
 }
 
 .stars::after {
-    background-size: 15px 15px;
-    opacity: 0.5;
+    background-size: 50px 50px; /* Larger spacing for even fewer stars */
+    opacity: 0.4;
     animation-duration: 45s;
 }
 
