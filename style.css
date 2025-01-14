@@ -32,12 +32,12 @@ body {
 }
 
 .stars::before {
-    background-size: 60px 60px; /* Reduced star density (fewer stars) */
-    opacity: 0.6; /* Slightly dimmer for subtle effect */
+    background-size: 150px 150px; /* MUCH wider spacing for far fewer stars */
+    opacity: 0.6; /* Slightly dimmer stars */
 }
 
 .stars::after {
-    background-size: 100px 100px; /* Reduced star density in the second layer */
+    background-size: 200px 200px; /* Even fewer stars in the second layer */
     opacity: 0.4;
     animation-duration: 45s; /* Slower movement for smoother effect */
 }
