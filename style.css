@@ -147,8 +147,9 @@ h2 {
 }
 
 .banner-image {
-    width: 60%; /* Explicitly set width to 60% of the page width */
+    width: 600px; /* Explicit width in pixels */
     height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Ensure it remains responsive */
     display: block;
     margin: 0 auto;
 }
