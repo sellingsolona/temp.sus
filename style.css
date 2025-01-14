@@ -114,31 +114,9 @@ h2 {
 
 /* GIF Styling */
 .responsive-gif {
-    max-width: 300px; /* Fixed maximum width to make the GIF much smaller */
-    height: auto; /* Maintain aspect ratio */
+    width: 25%;
     display: block;
     margin: 0 auto;
-}
-
-/* Buttons */
-.btn {
-    display: inline-block;
-    padding: 0.8rem 2rem;
-    font-size: 1.2rem;
-    border-radius: 30px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background 0.3s ease, transform 0.3s ease;
-}
-
-.btn.primary {
-    background: #ff4500;
-    color: #fff;
-}
-
-.btn:hover {
-    background: #e03d0c;
-    transform: scale(1.1);
 }
 
 /* Footer */
