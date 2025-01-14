@@ -125,7 +125,7 @@ h2 {
 
 /* Utility Tool Search Bar */
 #contract-address {
-    width: 63.75%;
+    width: 63.75%; /* Slightly smaller search bar */
     padding: 1.2rem;
     font-size: 1.2rem;
     border-radius: 5px;
@@ -135,6 +135,20 @@ h2 {
 /* GIF Styling */
 .responsive-gif {
     width: 25%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Banner Styling */
+.banner {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.banner-image {
+    width: auto; /* Maintain aspect ratio */
+    max-height: 40%; /* Reduced to 40% of original height (60% smaller) */
     display: block;
     margin: 0 auto;
 }
