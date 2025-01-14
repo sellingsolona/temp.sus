@@ -27,19 +27,30 @@ body {
     width: 300%;
     height: 300%;
     background: radial-gradient(circle, #ffffff 1px, transparent 1px) repeat;
-    animation: starfield 30s linear infinite;
+    animation: starfield 60s linear infinite;
     transform: translate3d(0, 0, 0);
 }
 
 .stars::before {
-    background-size: 400px 400px;
+    background-size: 400px 400px; /* Wide spacing for stars */
     opacity: 0.6;
+    animation-direction: normal;
 }
 
 .stars::after {
-    background-size: 600px 600px;
+    background-size: 600px 600px; /* Fewer stars, larger spacing */
     opacity: 0.4;
-    animation-duration: 45s;
+    animation-direction: reverse;
+    animation-duration: 90s; /* Slower movement for depth */
+}
+
+@keyframes starfield {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        transform: translate3d(-1000px, -1000px, 0); /* Creates the diagonal star movement */
+    }
 }
 
 /* Hero Section */
@@ -114,9 +125,9 @@ h2 {
 
 /* Utility Tool Search Bar */
 #contract-address {
-    width: 85%; /* Reduced width by 10% */
-    padding: 1.6rem; /* Reduced padding (height) by 10% */
-    font-size: 1.6rem; /* Reduced font size by 10% */
+    width: 85%;
+    padding: 1.6rem;
+    font-size: 1.6rem;
     border-radius: 5px;
     border: none;
 }
