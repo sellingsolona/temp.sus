@@ -32,16 +32,16 @@ body {
 }
 
 .stars::before {
-    background-size: 400px 400px; /* Wide spacing for stars */
+    background-size: 400px 400px;
     opacity: 0.6;
     animation-direction: normal;
 }
 
 .stars::after {
-    background-size: 600px 600px; /* Fewer stars, larger spacing */
+    background-size: 600px 600px;
     opacity: 0.4;
     animation-direction: reverse;
-    animation-duration: 90s; /* Slower movement for depth */
+    animation-duration: 90s;
 }
 
 @keyframes starfield {
@@ -49,7 +49,7 @@ body {
         transform: translate3d(0, 0, 0);
     }
     100% {
-        transform: translate3d(-1000px, -1000px, 0); /* Creates the diagonal star movement */
+        transform: translate3d(-1000px, -1000px, 0);
     }
 }
 
@@ -125,9 +125,9 @@ h2 {
 
 /* Utility Tool Search Bar */
 #contract-address {
-    width: 85%;
-    padding: 1.6rem;
-    font-size: 1.6rem;
+    width: 63.75%; /* Decreased width by 25% */
+    padding: 1.2rem; /* Decreased padding (height) by 25% */
+    font-size: 1.2rem; /* Decreased font size by 25% */
     border-radius: 5px;
     border: none;
 }
