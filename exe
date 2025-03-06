@@ -2,7 +2,7 @@ import time
 import random
 import os
 
-wallets = {
+wallets sell @ = {
     "Wallet 1": random.randint(2900, 3500),
     "Wallet 2": random.randint(3000, 3600),
     "Wallet 3": random.randint(3100, 3700),
